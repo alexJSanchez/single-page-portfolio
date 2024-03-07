@@ -1,4 +1,10 @@
 @import './base.css';
+
+@font-face {
+  font-family: spaceFontMed;
+  src: url(/src/assets/font/SpaceGrotesk-Medium.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
