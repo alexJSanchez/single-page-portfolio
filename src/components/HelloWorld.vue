@@ -5,20 +5,50 @@ const style = useStyleStore()
 
 <template>
   <div class="helloWorld">
-    <p v-bind:style="style.typography.body">AlexSanchez</p>
+    <p style="width: 100%; height: auto" v-bind:style="style.typography.body">AlexSanchez</p>
     <ul class="imageIconStyle">
       <li><img class="imageIcon" src="../assets/icon-linkedin.svg" /></li>
       <li><img class="imageIcon" src="../assets/icon-frontend-mentor.svg" /></li>
       <li><img class="imageIcon" src="../assets/icon-github.svg" /></li>
       <li><img class="imageIcon" src="../assets/icon-twitter.svg" /></li>
     </ul>
+    <div style="position: relative">
+      <img class="ringImage" src="../assets/pattern-rings.svg" alt="" />
+      <img class="headerImage" src="../assets/image-profile-mobile.webp" />
+      <img class="circleImage" src="../assets/pattern-circle.svg" alt="" />
+    </div>
   </div>
 </template>
 
 <style scoped>
+.ringImage {
+  width: 150%; /* Adjust as needed */
+  position: absolute;
+  top: 10%;
+  left: -20%;
+  transform: translate(-55%, 10%);
+  z-index: 0;
+}
+.circleImage {
+  width: 40%; /* Adjust as needed */
+  position: absolute;
+  top: 10%;
+  left: 65%;
+  transform: translate(55%, 150%);
+  z-index: 0;
+}
+.headerImage {
+  max-width: 65%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  z-index: 0;
+}
 .imageIcon {
-  width: 20px;
-  height: 20px;
+  max-width: 100%;
+  height: auto;
 }
 .imageIconStyle {
   display: flex;
