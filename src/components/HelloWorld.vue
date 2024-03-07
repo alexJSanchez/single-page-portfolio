@@ -1,13 +1,16 @@
 <script setup>
-import { useCounterStore } from '../stores/counter.js'
-const store = useCounterStore()
+import { useStyleStore } from '../stores/styles.js'
+const style = useStyleStore()
 </script>
 
 <template>
-  <div class="greetings"></div>
+  <div class="helloWorld"><p v-bind:style="style.typography.body">AlexSanchez</p></div>
 </template>
 
 <style scoped>
+.helloWorld {
+  text-align: center;
+}
 h1 {
   font-weight: 500;
   font-size: 2.6rem;

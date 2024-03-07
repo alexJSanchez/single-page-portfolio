@@ -4,4 +4,6 @@ const styles = useStyleStore()
 console.log(styles.typography)
 </script>
 
-<template><div v-bind:style="styles.typography.body">AlexSanchez</div></template>
+<template>
+  <div><p v-bind:style="styles.typography.body"></p></div>
+</template>
