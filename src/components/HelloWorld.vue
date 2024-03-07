@@ -5,7 +5,7 @@ const style = useStyleStore()
 
 <template>
   <div class="helloWorld">
-    <p style="width: 100%; height: auto" v-bind:style="style.typography.body">AlexSanchez</p>
+    <div><p v-bind:style="style.typography.headingM">AlexSanchez</p></div>
     <ul class="imageIconStyle">
       <li><img class="imageIcon" src="../assets/icon-linkedin.svg" /></li>
       <li><img class="imageIcon" src="../assets/icon-frontend-mentor.svg" /></li>
@@ -30,12 +30,14 @@ const style = useStyleStore()
   z-index: 0;
 }
 .circleImage {
-  width: 40%; /* Adjust as needed */
+  width: 45%; /* Adjust as needed */
+  max-width: 238px;
   position: absolute;
   top: 10%;
   left: 65%;
-  transform: translate(55%, 150%);
+  transform: translate(50%, 140%);
   z-index: 0;
+  opacity: 30%;
 }
 .headerImage {
   max-width: 65%;
@@ -44,7 +46,7 @@ const style = useStyleStore()
   top: 50%;
   left: 50%;
   transform: translate(-50%, -25%);
-  z-index: 0;
+  z-index: 1;
 }
 .imageIcon {
   max-width: 100%;
