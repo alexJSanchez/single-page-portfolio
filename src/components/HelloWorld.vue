@@ -27,7 +27,7 @@ const style = useStyleStore()
   top: 10%;
   left: -20%;
   transform: translate(-55%, 10%);
-  z-index: 0;
+  z-index: -1;
 }
 .circleImage {
   width: 45%; /* Adjust as needed */
@@ -35,8 +35,8 @@ const style = useStyleStore()
   position: absolute;
   top: 10%;
   left: 65%;
-  transform: translate(50%, 140%);
-  z-index: 0;
+  transform: translate(70%, 120%);
+  z-index: -1;
   opacity: 30%;
 }
 .headerImage {
@@ -45,8 +45,8 @@ const style = useStyleStore()
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -25%);
-  z-index: 1;
+  transform: translate(-50%, -30%);
+  z-index: 0;
 }
 .imageIcon {
   max-width: 100%;
@@ -62,7 +62,6 @@ const style = useStyleStore()
 .helloWorld {
   text-align: center;
   font-family: 'spaceFontMed';
-  margin: 1rem;
 }
 h1 {
   font-weight: 500;

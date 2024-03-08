@@ -10,7 +10,6 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
-      <HelloWorld msg="You did it!" />
     </div>
   </header>
 
@@ -32,6 +31,8 @@ nav {
   width: 100%;
   font-size: 12px;
   text-align: center;
+  position: relative;
+  z-index: 3;
 }
 
 nav a.router-link-exact-active {
