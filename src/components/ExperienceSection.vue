@@ -7,9 +7,12 @@
         style="
           display: grid;
           grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-          grid-template-rows: 1fr 1fr;
+          grid-template-rows: 1fr 1fr 1fr;
         "
       >
+        <h2 style="grid-column-start: 2; grid-column-end: 5; grid-row-start: 1; font-size: 1.5rem">
+          4Years Experience
+        </h2>
         <div
           style="
             display: flex;
@@ -17,7 +20,7 @@
             align-items: center;
             grid-column-start: 2;
             grid-column-end: 3;
-            grid-row-start: 1;
+            grid-row-start: 2;
           "
         >
           <img
@@ -39,7 +42,7 @@
             align-items: center;
             grid-column-start: 4;
             grid-column-end: 5;
-            grid-row-start: 1;
+            grid-row-start: 2;
           "
         >
           <img
@@ -61,7 +64,7 @@
             align-items: center;
             grid-column-start: 3;
             grid-column-end: 4;
-            grid-row-start: 2;
+            grid-row-start: 3;
           "
         >
           <img
@@ -77,19 +80,8 @@
             "
           />
         </div>
-        <h2
-          style="
-            grid-column-start: 3;
-            grid-column-end: 4;
-            grid-row-start: 3;
-            margin-top: 20px;
-            font-size: 1.8rem;
-          "
-        >
-          4Years
-        </h2>
       </li>
-      <li style="margin: 1rem">
+      <li style="margin: 4rem">
         <div
           style="display: flex; position: relative; justify-content: center; align-items: center"
         >
@@ -123,31 +115,71 @@
             font-size: 1.8rem;
           "
         >
-          4Years
+          MERN stack
         </h2>
       </li>
-      <li>
-        <div
-          style="display: flex; justify-content: center; margin-top: 1rem; flex-direction: column"
-        >
-          <h2 style="font-size: 2rem; color: white">Accessibility</h2>
-          <p style="color: #d9d9d9">4 year experience</p>
+      <li
+        style="
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          justify-content: space-around;
+          gap: 1rem;
+        "
+      >
+        <div style="">
+          <img
+            src="../assets/icon-git.svg"
+            style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
+          />
         </div>
-      </li>
-      <li>
-        <div
-          style="display: flex; justify-content: center; margin-top: 1rem; flex-direction: column"
-        >
-          <h2 style="font-size: 2rem; color: white">React</h2>
-          <p style="color: #d9d9d9">4 year experience</p>
+
+        <div style="display: flex; justify-content: center; align-items: center">
+          <img
+            src="../assets/icon-vuejs.svg"
+            style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
+          />
         </div>
-      </li>
-      <li>
-        <div
-          style="display: flex; justify-content: center; margin-top: 1rem; flex-direction: column"
-        >
-          <h2 style="font-size: 2rem; color: white">Sql/MongoDb</h2>
-          <p style="color: #d9d9d9">4 year experience</p>
+        <div style="display: flex; justify-content: center; align-items: center">
+          <img
+            src="../assets/icon-python.svg"
+            style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
+          />
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center">
+          <img
+            src="../assets/icon-php.svg"
+            style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
+          />
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center">
+          <img
+            src="../assets/icon-cypress.svg"
+            style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
+          />
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center">
+          <img
+            src="../assets/icon-figma.svg"
+            style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
+          />
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center">
+          <img
+            src="../assets/icon-nodejs.svg"
+            style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
+          />
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center">
+          <img
+            src="../assets/icon-redux.svg"
+            style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
+          />
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center">
+          <img
+            src="../assets/icon-mysql.svg"
+            style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
+          />
         </div>
       </li>
     </ul>
