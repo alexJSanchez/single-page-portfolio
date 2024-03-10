@@ -21,7 +21,7 @@
           color: #d9d9d9;
         "
       >
-        Nice to meet you! Alex Sanchez
+        Nice to meet you! I'm Alex Sanchez
       </p>
       <p
         style="

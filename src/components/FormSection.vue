@@ -1,5 +1,6 @@
 <script></script>
 <template>
+  <div style="background-color: #ffffff; padding: 1px; margin: 1rem; opacity: 0.5"></div>
   <div style="display: flex; flex-direction: column; align-items: center; padding: 0 1rem">
     <h2 style="font-size: 2rem">Contact</h2>
     <p style="text-align: center">
