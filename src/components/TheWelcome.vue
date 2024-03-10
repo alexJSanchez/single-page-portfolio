@@ -1,7 +1,4 @@
-<script setup>
-import { useStyleStore } from '../stores/styles.js'
-const style = useStyleStore()
-</script>
+<script setup></script>
 
 <template>
   <div class="helloWorld">

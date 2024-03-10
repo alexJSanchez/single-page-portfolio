@@ -83,7 +83,7 @@
           />
         </div>
       </li>
-      <li style="margin: 4rem">
+      <li style="margin: 3rem">
         <div
           style="display: flex; position: relative; justify-content: center; align-items: center"
         >
