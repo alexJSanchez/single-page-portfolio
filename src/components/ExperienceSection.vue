@@ -1,16 +1,18 @@
 <script setup></script>
 <template>
-  <div style="margin-top: 3rem">
-    <div style="background-color: #4ee1a0; padding: 1px; margin: 1rem"></div>
+  <div style="margin-top: 3rem; color: #4ee1a0">
+    <div style="background-color: #ffffff; padding: 1px; margin: 1rem; opacity: 0.5"></div>
     <ul style="text-align: center; list-style: none">
-      <li
-        style="
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-          grid-template-rows: 1fr 1fr 1fr;
-        "
-      >
-        <h2 style="grid-column-start: 2; grid-column-end: 5; grid-row-start: 1; font-size: 1.5rem">
+      <li style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr">
+        <h2
+          style="
+            grid-column-start: 2;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            font-size: 1.5rem;
+            margin-bottom: 25px;
+          "
+        >
           4Years Experience
         </h2>
         <div
@@ -123,67 +125,81 @@
           display: grid;
           grid-template-columns: 1fr 1fr 1fr;
           justify-content: space-around;
+          align-items: flex-end;
           gap: 1rem;
+          color: #4ee1a0;
         "
       >
-        <div style="">
+        <div>
           <img
             src="../assets/icon-git.svg"
             style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
           />
+          <h5>Git</h5>
         </div>
-
-        <div style="display: flex; justify-content: center; align-items: center">
+        <div>
           <img
-            src="../assets/icon-vuejs.svg"
-            style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
+            src="../assets/icon-vuejs2.svg"
+            style="
+              width: 100%;
+              max-width: 3.4rem;
+              padding-bottom: 2px; /* Adjust the max-width as needed */
+            "
           />
+          <h5>Vue</h5>
         </div>
-        <div style="display: flex; justify-content: center; align-items: center">
+        <div>
           <img
             src="../assets/icon-python.svg"
             style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
           />
+          <h5>Python</h5>
         </div>
-        <div style="display: flex; justify-content: center; align-items: center">
+        <div>
           <img
             src="../assets/icon-php.svg"
             style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
           />
+          <h5>PHP</h5>
         </div>
-        <div style="display: flex; justify-content: center; align-items: center">
+        <div>
           <img
             src="../assets/icon-cypress.svg"
             style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
           />
+          <h5>Cypress</h5>
         </div>
-        <div style="display: flex; justify-content: center; align-items: center">
+        <div>
           <img
             src="../assets/icon-figma.svg"
             style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
           />
+          <h5>Figma</h5>
         </div>
-        <div style="display: flex; justify-content: center; align-items: center">
+        <div>
           <img
             src="../assets/icon-nodejs.svg"
             style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
           />
+          <h5>NodeJs</h5>
         </div>
-        <div style="display: flex; justify-content: center; align-items: center">
+        <div>
           <img
             src="../assets/icon-redux.svg"
             style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
           />
+          <h5>Redux</h5>
         </div>
-        <div style="display: flex; justify-content: center; align-items: center">
+        <div>
           <img
             src="../assets/icon-mysql.svg"
             style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
           />
+          <h5>MySql</h5>
         </div>
       </li>
     </ul>
-    <div style="background-color: #4ee1a0; padding: 1px; margin: 1rem"></div>
+    <div style="background-color: #ffffff; padding: 1px; margin: 1rem; opacity: 0.5"></div>
   </div>
 </template>
 <style></style>

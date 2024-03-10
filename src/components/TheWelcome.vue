@@ -12,7 +12,7 @@ const style = useStyleStore()
         <li><img class="imageIcon" src="../assets/icon-github.svg" /></li>
         <li><img class="imageIcon" src="../assets/icon-twitter.svg" /></li>
       </ul>
-      <img class="headerImage" src="../assets/image-profile-mobile.webp" />
+      <img class="headerImage" src="../assets/alex-pic.png" />
     </div>
     <div class="headerText">
       <p
@@ -58,7 +58,7 @@ const style = useStyleStore()
 <style scoped>
 .headerImage {
   max-width: 60%;
-  transform: translateY(-20%);
+  filter: grayscale(90%);
 }
 .headerText {
   margin: 0 1.5rem;
