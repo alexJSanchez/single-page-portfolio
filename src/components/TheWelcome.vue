@@ -4,10 +4,16 @@
   <div class="helloWorld">
     <div style="text-align: center">
       <ul class="imageIconStyle">
-        <li><img class="imageIcon" src="../assets/icon-linkedin.svg" /></li>
-        <li><img class="imageIcon" src="../assets/icon-frontend-mentor.svg" /></li>
-        <li><img class="imageIcon" src="../assets/icon-github.svg" /></li>
-        <li><img class="imageIcon" src="../assets/icon-twitter.svg" /></li>
+        <li>
+          <a href="https://www.linkedin.com/in/qasanchez/"
+            ><img class="imageIcon" src="../assets/icon-linkedin.svg"
+          /></a>
+        </li>
+        <li>
+          <a href="https://github.com/alexJSanchez"
+            ><img class="imageIcon" src="../assets/icon-github.svg"
+          /></a>
+        </li>
       </ul>
       <img class="headerImage" src="../assets/alex-pic.png" />
     </div>
@@ -21,7 +27,7 @@
           color: #d9d9d9;
         "
       >
-        Nice to meet you! I'm Alex Sanchez
+        Nice to meet you! I'm <span style="color: #4ee1a0">Alex Sanchez</span>
       </p>
       <p
         style="
@@ -32,8 +38,8 @@
           color: #d9d9d9;
         "
       >
-        Based in Newyork, I'm a front-end developer passionate about building accesible web apps
-        that users love
+        Based in Newyork, A Skateborder passionate about front-end developement. With over 20 years
+        of customer sevice. I look to using tech to better help athletes achieve professional goals.
       </p>
       <button
         style="
