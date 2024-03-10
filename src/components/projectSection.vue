@@ -28,5 +28,16 @@ export default {
       </button>
     </div>
   </div>
+  <div style="display: grid; grid-template-rows: 4; grid-template-columns: 8; padding: 0 1rem">
+    <img
+      style="width: 100%; grid-column-start: 1; grid-column-end: 8"
+      src="../assets/layoutImages/thumbnail-project-1-small.webp"
+    />
+
+    <p style="grid-column-start: 1; grid-column-end: 8; grid-row-start: 2">Design Portfolio</p>
+    <p style="grid-column-start: 1; grid-row-start: 3; grid-column-end: 8">HTML CSS</p>
+    <p style="grid-column-start: 1; grid-row-start: 4; grid-column-end: 4">VIEW PROJECT</p>
+    <p style="grid-column-start: 4; grid-row-start: 4; grid-column-end: 8">VIEW CODE</p>
+  </div>
 </template>
 <style></style>

@@ -108,17 +108,18 @@
             "
           ></div>
         </div>
-        <h2
+
+        <h4
           style="
             grid-column-start: 3;
             grid-column-end: 4;
             grid-row-start: 3;
             margin-top: 20px;
-            font-size: 1.8rem;
+            font-size: 1.5rem;
           "
         >
-          MERN stack
-        </h2>
+          M.E.R.N
+        </h4>
       </li>
       <li
         style="
