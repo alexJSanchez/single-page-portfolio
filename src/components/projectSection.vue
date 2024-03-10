@@ -33,11 +33,56 @@ export default {
       style="width: 100%; grid-column-start: 1; grid-column-end: 8"
       src="../assets/layoutImages/thumbnail-project-1-small.webp"
     />
-
-    <p style="grid-column-start: 1; grid-column-end: 8; grid-row-start: 2">Design Portfolio</p>
-    <p style="grid-column-start: 1; grid-row-start: 3; grid-column-end: 8">HTML CSS</p>
-    <p style="grid-column-start: 1; grid-row-start: 4; grid-column-end: 4">VIEW PROJECT</p>
-    <p style="grid-column-start: 4; grid-row-start: 4; grid-column-end: 8">VIEW CODE</p>
+    <p
+      style="
+        grid-column-start: 1;
+        grid-column-end: 8;
+        grid-row-start: 2;
+        font-size: 1.5rem;
+        line-height: 32px;
+        margin: 1rem 0;
+      "
+    >
+      Design Portfolio
+    </p>
+    <p style="grid-column-start: 1; grid-row-start: 3; grid-column-end: 8; font-size: 1rem">
+      HTML CSS
+    </p>
+    <button
+      :style="{
+        color: store.colors.orochimaru,
+        margin: '.5rem 0',
+        fontFamily: 'spaceFontMed',
+        borderStyle: 'none',
+        backgroundColor: 'transparent',
+        paddingBottom: '0.3rem',
+        borderBottom: 'solid 2px #4ee1a0',
+        letterSpacing: '2px',
+        lineHeight: '26px',
+        gridColumnStart: '1',
+        gridRowStart: '4',
+        gridColumnEnd: '3'
+      }"
+    >
+      View Project
+    </button>
+    <button
+      :style="{
+        color: store.colors.orochimaru,
+        fontFamily: 'spaceFontMed',
+        borderStyle: 'none',
+        backgroundColor: 'transparent',
+        paddingBottom: '0.3rem',
+        borderBottom: 'solid 2px #4ee1a0',
+        letterSpacing: '2px',
+        lineHeight: '26px',
+        gridColumnStart: '4',
+        gridRowStart: '4',
+        gridColumnEnd: '7'
+      }"
+    >
+      View Code
+    </button>
   </div>
 </template>
 <style></style>
