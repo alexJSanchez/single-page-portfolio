@@ -21,7 +21,7 @@ export default {
   >
     <img
       style="width: 100%; grid-column-start: 1; grid-column-end: 8"
-      src="../assets/layoutImages/thumbnail-project-1-small.webp"
+      src="../assets/image-skaterapp.PNG"
     />
     <p
       style="
@@ -36,7 +36,7 @@ export default {
       Skaterboarder assistant
     </p>
     <p style="grid-column-start: 1; grid-row-start: 3; grid-column-end: 8; font-size: 1rem">
-      HTML CSS JAVASCRIPT M.E.R.N
+      HTML CSS JAVASCRIPT TAILWIND VITE
     </p>
     <button
       :style="{
@@ -54,7 +54,9 @@ export default {
         gridColumnEnd: '3'
       }"
     >
-      View Project
+      <a style="text-decoration: none; color: white" href="https://skaterapp.vercel.app/"
+        >View Project</a
+      >
     </button>
     <button
       :style="{
@@ -72,7 +74,11 @@ export default {
         gridColumnEnd: '7'
       }"
     >
-      View Code
+      <a
+        style="text-decoration: none; color: white"
+        href="https://github.com/alexJSanchez/skaterapp"
+        >View Code</a
+      >
     </button>
   </div>
   <!--second project-->
