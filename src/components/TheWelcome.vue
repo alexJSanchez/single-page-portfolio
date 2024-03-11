@@ -32,7 +32,8 @@
       <p
         style="
           font-family: Arial, Helvetica, sans-serif;
-          margin-top: 10px;
+          margin-top: 1rem;
+          margin-bottom: 1rem;
           color: aliceblue;
           line-height: 26px;
           color: #d9d9d9;
@@ -41,19 +42,22 @@
         Based in Newyork, A Skateborder passionate about front-end developement. With over 20 years
         of customer sevice. I look to using tech to better help athletes achieve professional goals.
       </p>
-      <button
+      <a
+        href="#contact"
         style="
           color: aliceblue;
-          margin-top: 1.25rem;
           border-style: none;
+          font-family: spaceFontBold;
           background-color: transparent;
           border-bottom: solid 2px #4ee1a0;
+          text-decoration-line: none;
           letter-spacing: 2px;
           line-height: 26px;
+          padding: 1rem 2rem;
+          font-size: 1.2rem;
         "
-      >
-        CONTACT ME
-      </button>
+        >Contact Me
+      </a>
     </div>
   </div>
 </template>

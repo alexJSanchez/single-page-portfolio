@@ -1,6 +1,5 @@
 <script>
 import emailjs from '@emailjs/browser'
-
 export default {
   methods: {
     sendEmail() {
@@ -30,6 +29,7 @@ export default {
     </p>
   </div>
   <form
+    id="contact"
     style="
       display: flex;
       padding: 0rem 1rem;
@@ -113,7 +113,7 @@ export default {
         cursor: 'pointer'
       }"
       type="submit"
-      value="Contact Me"
+      value="Send"
     />
   </form>
 </template>
