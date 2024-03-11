@@ -1,20 +1,23 @@
 <script>
 import emailjs from '@emailjs/browser'
 export default {
+  data() {
+    return {
+      apikey: import.meta.env.API_KEY
+    }
+  },
   methods: {
     sendEmail() {
       emailjs
         .sendForm('service_h26cbok', 'contact_form', this.$refs.form, {
           publicKey: 'GDrTSqxGJ4HIhTYVd'
         })
-        .then(
-          () => {
-            console.log('SUCCESS!')
-          },
-          (error) => {
-            console.log('FAILED...', error.text)
-          }
-        )
+        .then(() => {
+          console.log('SUCCESS!')
+        })
+        .catch((err) => {
+          console.log('Error:', err)
+        })
     }
   }
 }
@@ -40,7 +43,7 @@ export default {
     ref="form"
     @submit.prevent="sendEmail"
   >
-    <label style="margin: 0rem 0rem">Name</label>
+    <label style="margin: 0rem 0rem 1rem">Name</label>
     <input
       style="
         color: #d9d9d9;
@@ -62,7 +65,7 @@ export default {
         background-color: transparent;
         border: none;
         border-bottom: solid 1px white;
-        padding: 0rem 1rem;
+        padding: 0rem 1rem 0.5rem;
       "
       placeholder="Email address"
       type="email"
@@ -95,7 +98,7 @@ export default {
         background-color: transparent;
         border: none;
         border-bottom: solid 1px white;
-        padding: 0.5rem 1rem;
+        padding: 0rem 1rem 0.5rem;
       "
     />
     <input

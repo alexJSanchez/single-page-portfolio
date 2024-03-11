@@ -3,6 +3,7 @@
   <div style="margin-top: 3rem; color: #4ee1a0">
     <div style="background-color: #ffffff; padding: 1px; margin: 1rem; opacity: 0.5"></div>
     <ul style="text-align: center; list-style: none">
+      <!--expirience section-->
       <li style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr">
         <h2
           style="
@@ -83,6 +84,7 @@
           />
         </div>
       </li>
+      <!--stack section-->
       <li style="margin: 3rem">
         <div
           style="display: flex; position: relative; justify-content: center; align-items: center"
@@ -121,6 +123,7 @@
           M.E.R.N
         </h4>
       </li>
+      <!--skills section-->
       <li
         style="
           display: grid;
@@ -133,10 +136,10 @@
       >
         <div>
           <img
-            src="../assets/icon-git.svg"
+            src="../assets/icon-php.svg"
             style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
           />
-          <h5>Git</h5>
+          <h5>PHP</h5>
         </div>
         <div>
           <img
@@ -158,15 +161,20 @@
         </div>
         <div>
           <img
-            src="../assets/icon-php.svg"
+            src="../assets/icon-redux.svg"
             style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
           />
-          <h5>PHP</h5>
+          <h5>Redux</h5>
         </div>
         <div>
           <img
             src="../assets/icon-cypress.svg"
-            style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
+            style="
+              width: 100%;
+              max-width: 3rem;
+              background-color: #fff;
+              border-radius: 50%; /* Adjust the max-width as needed */
+            "
           />
           <h5>Cypress</h5>
         </div>
@@ -186,10 +194,10 @@
         </div>
         <div>
           <img
-            src="../assets/icon-redux.svg"
+            src="../assets/icon-git.svg"
             style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
           />
-          <h5>Redux</h5>
+          <h5>Git</h5>
         </div>
         <div>
           <img
@@ -197,6 +205,31 @@
             style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
           />
           <h5>MySql</h5>
+        </div>
+        <div>
+          <img
+            src="../assets/icon-agile.png"
+            style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
+          />
+          <h5>Agile</h5>
+        </div>
+        <div>
+          <img
+            src="../assets/icon-jira.png"
+            style="width: 100%; max-width: 3rem; /* Adjust the max-width as needed */"
+          />
+          <h5>Jira</h5>
+        </div>
+        <div>
+          <img
+            src="../assets/icon-notion.png"
+            style="
+              width: 100%;
+              max-width: 3rem;
+              background-color: #fff; /* Adjust the max-width as needed */
+            "
+          />
+          <h5>Notion</h5>
         </div>
       </li>
     </ul>
