@@ -5,7 +5,6 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <header>
     <div class="wrapper">
-      <a href="mailto:alexjsanchez1020@gmail.com?subject=hello&body=thisismytalk">Send Email</a>
       <nav>
         <RouterLink to="/">Tech</RouterLink>
         <RouterLink to="/about">Skate</RouterLink>
