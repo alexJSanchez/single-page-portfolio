@@ -42,8 +42,4 @@ export default {
   font-family: spaceFontBold;
   font-size: 2rem;
 }
-
-.contact-link {
-  /* Add styles specific to the contact link */
-}
 </style>
