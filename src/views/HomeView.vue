@@ -1,7 +1,7 @@
 <script setup>
 import TheWelcome from '../components/TheWelcome.vue'
 import ExperienceSection from '../components/ExperienceSection.vue'
-import ProjectCardVue from '../components/ProjectCard.vue'
+import ProjectSection from '../components/ProjectSection.vue'
 import ProjectCard from '../components/ProjectCard.vue'
 import FormSection from '../components/FormSection.vue'
 </script>
@@ -10,7 +10,7 @@ import FormSection from '../components/FormSection.vue'
   <main>
     <TheWelcome />
     <ExperienceSection />
-    <ProjectCardVue />
+    <ProjectSection />
     <ProjectCard />
     <FormSection />
   </main>
