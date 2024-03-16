@@ -3,9 +3,9 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header>
+  <header style="display: flex; justify-content: center">
     <div class="wrapper">
-      <nav style="font-size: 1.2rem">
+      <nav style="font-size: 1.2rem; text-wrap: nowrap">
         <RouterLink to="/">Tech</RouterLink>
         <RouterLink to="/about">Skate</RouterLink>
       </nav>
@@ -56,7 +56,6 @@ nav a:first-of-type {
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
   }
 
   .logo {
