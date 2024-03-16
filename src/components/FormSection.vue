@@ -1,5 +1,6 @@
 <script>
 import emailjs from '@emailjs/browser'
+const emailKey = import.meta.env.VITE_API_KEY
 export default {
   data() {
     return {
@@ -10,7 +11,7 @@ export default {
     sendEmail() {
       emailjs
         .sendForm('service_h26cbok', 'contact_form', this.$refs.form, {
-          publicKey: 'GDrTSqxGJ4HIhTYVd'
+          publicKey: emailKey
         })
         .then(() => {
           console.log('SUCCESS!')
