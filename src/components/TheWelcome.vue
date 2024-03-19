@@ -40,7 +40,8 @@
         "
       >
         Based in Newyork, A Skateborder passionate about front-end developement. With over 20 years
-        of customer sevice. I look to using tech to better help athletes achieve professional goals.
+        of customer sevice. I look to using tech to better help athletes achieve professional goals
+        with technology.
       </p>
       <a
         href="#contact"
