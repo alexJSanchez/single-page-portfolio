@@ -179,7 +179,7 @@ export default {
   >
     <img
       style="width: 100%; grid-column-start: 1; grid-column-end: 8"
-      src="../assets/image-asylum.PNG"
+      src="../assets/photosnap.jpg"
     />
     <p
       style="
@@ -191,10 +191,10 @@ export default {
         margin: 1rem 0;
       "
     >
-      Asylum Grant Tracker
+      Photographer blog design
     </p>
     <p style="grid-column-start: 1; grid-row-start: 3; grid-column-end: 8; font-size: 1rem">
-      HTML CSS JAVASCRIPT REACT REDUX
+      HTML CSS JAVASCRIPT REACT
     </p>
     <button
       :style="{
@@ -212,7 +212,9 @@ export default {
         gridColumnEnd: '3'
       }"
     >
-      View Project
+      <a style="text-decoration: none; color: white" href="https://photoblog-chi.vercel.app/">
+        View Project</a
+      >
     </button>
     <button
       :style="{
@@ -232,7 +234,7 @@ export default {
     >
       <a
         style="text-decoration: none; color: white"
-        href="https://github.com/alexJSanchez/asylum-rg-fe-starter"
+        href="https://github.com/alexJSanchez/photoblog"
         >View code</a
       >
     </button>
