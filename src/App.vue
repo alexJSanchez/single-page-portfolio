@@ -4,12 +4,12 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header style="display: flex; justify-content: center">
-    <div class="wrapper">
+    <!-- <div class="wrapper">
       <nav style="font-size: 1.2rem; text-wrap: nowrap">
         <RouterLink to="/">Tech</RouterLink>
         <RouterLink to="/about">Skate</RouterLink>
       </nav>
-    </div>
+    </div> -->
   </header>
 
   <RouterView />

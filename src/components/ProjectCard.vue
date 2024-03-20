@@ -179,7 +179,7 @@ export default {
   >
     <img
       style="width: 100%; grid-column-start: 1; grid-column-end: 8"
-      src="../assets/layoutImages/thumbnail-project-3-small.webp"
+      src="../assets/image-asylum.PNG"
     />
     <p
       style="
@@ -191,10 +191,10 @@ export default {
         margin: 1rem 0;
       "
     >
-      Design Portfolio
+      Asylum Grant Tracker
     </p>
     <p style="grid-column-start: 1; grid-row-start: 3; grid-column-end: 8; font-size: 1rem">
-      HTML CSS
+      HTML CSS JAVASCRIPT REACT REDUX
     </p>
     <button
       :style="{
@@ -230,7 +230,11 @@ export default {
         gridColumnEnd: '7'
       }"
     >
-      View Code
+      <a
+        style="text-decoration: none; color: white"
+        href="https://github.com/alexJSanchez/asylum-rg-fe-starter"
+        >View code</a
+      >
     </button>
   </div>
 </template>
