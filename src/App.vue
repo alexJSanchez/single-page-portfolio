@@ -1,9 +1,9 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header style="display: flex; justify-content: center">
+  <header>
     <!-- <div class="wrapper">
       <nav style="font-size: 1.2rem; text-wrap: nowrap">
         <RouterLink to="/">Tech</RouterLink>
@@ -19,6 +19,8 @@ import { RouterLink, RouterView } from 'vue-router'
 header {
   line-height: 1.5;
   max-height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 .logo {
