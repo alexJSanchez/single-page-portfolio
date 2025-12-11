@@ -14,7 +14,7 @@
             margin-bottom: 25px;
           "
         >
-          4 Years Experience
+          6 Years Experience
         </h2>
         <div
           style="
