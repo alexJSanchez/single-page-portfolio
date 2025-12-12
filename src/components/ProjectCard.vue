@@ -1,5 +1,8 @@
 <script setup>
 import { useStyleStore } from '../stores/styles.js'
+import skaterappImg from '../assets/image-skaterapp.PNG'
+import photoblogImg from '../assets/photosnap.jpg'
+import asylumImg from '../assets/image-asylum.PNG'
 
 const store = useStyleStore()
 
@@ -19,7 +22,7 @@ const projects = [
   {
     id: 1,
     title: 'Skaterboarder assistant',
-    image: '../assets/image-skaterapp.PNG',
+    image: skaterappImg,
     tech: 'HTML CSS JAVASCRIPT TAILWIND VITE',
     descHtml:
       'Skateboarder assistant app that <span class="underline">uses user geo location to find the closest skatable spot</span>. Additional quality of life features like weather, time, and trick of the day.',
@@ -29,7 +32,7 @@ const projects = [
   {
     id: 2,
     title: 'Photographer blog design',
-    image: '../assets/photosnap.jpg',
+    image: photoblogImg,
     tech: 'HTML CSS JAVASCRIPT REACT',
     descHtml:
       'A simple design for a <span class="underline">photographer blog page</span> built in react with tailwind css',
@@ -39,7 +42,7 @@ const projects = [
   {
     id: 3,
     title: 'Asylum Grant Tracker',
-    image: '../assets/image-asylum.PNG',
+    image: asylumImg,
     tech: 'HTML CSS JAVASCRIPT REACT REDUX',
     descHtml:
       'Built the login and display chart for <span class="underline">labs repository project.</span>',
@@ -89,12 +92,14 @@ const projects = [
   display: flex;
   justify-content: space-between;
 }
-
 .title {
   font-family: spaceFontBold;
   font-size: 2rem;
 }
-
+.project-actions {
+  display: flex;
+  gap: 1rem;
+}
 .project-grid {
   display: grid;
   grid-template-rows: auto;
